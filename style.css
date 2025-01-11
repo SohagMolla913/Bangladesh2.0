@@ -1,6 +1,6 @@
 * {
   margin: 20px;
-  padding: px;
+  padding: 0;
 }
 .option1 {
   width: 1280;
@@ -18,10 +18,10 @@
 }
 .btn {
   padding: 15px;
-  border-radius: 10px;
+  border-radius: 5px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: bold;
-  background-color: green;
+  background-color: rgb(85, 224, 85);
   border: none;
 }
 button:hover {
@@ -79,4 +79,80 @@ button:hover {
   color: darkgrey;
   font: 400;
   font-size: large;
+}
+
+.option4 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.div_4 {
+  display: flex;
+  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.pic3 {
+  border-radius: 30px;
+}
+
+.date {
+  display: flex;
+}
+
+.option5 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: flex;
+  background-color: white;
+}
+
+.option6 {
+  text-align: center;
+}
+
+.lastp {
+  font-size: 37px;
+}
+
+.card {
+  width: 242px;
+  height: 118px;
+  border: none;
+  border-radius: 20px;
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.plch {
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+  border: none;
+  background: rgb(252, 251, 251);
+}
+.plch:hover {
+  background-color: rgb(206, 235, 177);
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.option7 {
+  text-align: center;
+  background-color: #c6e4d6;
+  padding: 15px;
+  border-radius: 30px;
+}
+
+.plche {
+  width: 80%;
+  padding: 15px;
+  border: none;
+  background: rgb(252, 251, 251);
+  border-radius: 5px;
+  border: none;
+}
+
+.div7 {
+  display: flex;
 }
