@@ -12,6 +12,7 @@
   align-items: center;
   font-family: Arial, Helvetica, sans-serif;
   justify-content: space-around;
+  background-color: #2ac7a0;
 }
 .write1 {
   font-size: 53px;
@@ -36,6 +37,7 @@ button:hover {
 
 .option2 {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: rgba(250, 250, 250, 0.918);
 }
 
 .write2 {
@@ -66,6 +68,7 @@ button:hover {
 .option3 {
   background-image: url(Images/fi_2087863.png);
   background-repeat: no-repeat;
+  background-color: rgba(250, 250, 250, 0.918);
 }
 
 .fonte {
@@ -83,6 +86,7 @@ button:hover {
 
 .option4 {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: rgba(250, 250, 250, 0.918);
 }
 
 .div_4 {
@@ -96,15 +100,24 @@ button:hover {
 .pic3 {
   border-radius: 30px;
 }
+.pic4 {
+  border-radius: 30px;
+  width: 90%;
+}
 
 .date {
   display: flex;
 }
 
+.write8 {
+  font-size: 17px;
+  color: #747776;
+}
+
 .option5 {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   display: flex;
-  background-color: white;
+  background-color: rgba(250, 250, 250, 0.918);
 }
 
 .option6 {
@@ -126,11 +139,12 @@ button:hover {
 
 .plch {
   width: 100%;
-  padding: 10px;
+  padding: 15px;
   text-align: center;
   border: none;
-  background: rgb(252, 251, 251);
+  background: rgb(207, 207, 245);
 }
+
 .plch:hover {
   background-color: rgb(206, 235, 177);
   transform: scale(1.1);
@@ -145,14 +159,30 @@ button:hover {
 }
 
 .plche {
-  width: 80%;
+  width: 90%;
   padding: 15px;
   border: none;
   background: rgb(252, 251, 251);
-  border-radius: 5px;
-  border: none;
 }
 
 .div7 {
   display: flex;
+  position: relative;
+}
+
+.div7:hover {
+  direction: inherit;
+}
+
+.btn1 {
+  padding: 15px;
+  border-radius: 0px 5px 5px 0px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  background-color: rgb(85, 224, 85);
+  border: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
 }
