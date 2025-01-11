@@ -1,0 +1,44 @@
+* {
+  margin: 20px;
+  padding: px;
+}
+.option1 {
+  width: 1280;
+  height: 560;
+  background-color: aquamarine;
+  display: flex;
+  padding: 50px;
+  border-radius: 30px;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  justify-content: space-around;
+}
+.write1 {
+  font-size: 53px;
+}
+.btn {
+  padding: 15px;
+  border-radius: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  background-color: green;
+  border: none;
+}
+button:hover {
+  background-color: chartreuse;
+  transform: scale(1.1);
+  cursor: pointer;
+  border: none;
+}
+.small_tag {
+  color: cadetblue;
+}
+
+.option2 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.write2 {
+  font-weight: bolder;
+  font-size: 40px;
+}
