@@ -19,7 +19,7 @@
 .btn {
   padding: 15px;
   border-radius: 10px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: bold;
   background-color: green;
   border: none;
@@ -35,10 +35,48 @@ button:hover {
 }
 
 .option2 {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .write2 {
   font-weight: bolder;
   font-size: 40px;
+}
+.div_1 {
+  background-color: #5490f5;
+  border-radius: 30px;
+}
+.div_2 {
+  background-color: #09a15c;
+  border-radius: 30px;
+}
+.card_logo1 {
+  width: 35%;
+}
+.div_3 {
+  background-color: #f7ebcf;
+  border-radius: 30px;
+}
+.main_1 {
+  display: flex;
+  /* justify-items: center; */
+  justify-content: space-between;
+}
+
+.option3 {
+  background-image: url(Images/fi_2087863.png);
+  background-repeat: no-repeat;
+}
+
+.fonte {
+  /* padding-left: 5px; */
+  margin-left: auto;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 500;
+}
+
+.p2 {
+  color: darkgrey;
+  font: 400;
+  font-size: large;
 }
